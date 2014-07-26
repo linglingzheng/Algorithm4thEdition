@@ -7,6 +7,17 @@
  *  Each item from the sequence can be printed out at most once. 
  *  You may assume that k ¡Ý 0 and no greater than the number of string N on standard 
  *  input.
+ *  
+ *  test :
+ *  % echo A B C D E F G H I | java Subset 3       % echo AA BB BB BB BB BB CC CC | java Subset 8
+C                                              BB
+G                                              AA
+A                                              BB
+                                               CC
+% echo A B C D E F G H I | java Subset 3       BB
+E                                              BB
+F                                              CC
+G                                              BB
 */
 import java.io.IOException;
 import java.util.Iterator;
